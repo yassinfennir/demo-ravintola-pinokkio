@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- SEO Meta Tags -->
+  <title>Ravintola Helsinki — Pohjoismaisen keittion parhaimmisto</title>
+  <meta name="description" content="Ravintola Helsinki tarjoaa unohtumattomia makuelämyksiä pohjoismaiseen tyyliin. Tuoreet raaka-aineet, moderni kokkaus ja lämmin tunnelma.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ravintola Helsinki">
+  <meta property="og:description" content="Autenttinen pohjoismainen keittiö sydämessäsi">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=80">
+  <meta property="og:url" content="">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Ravintola Helsinki",
+    "description": "Autenttinen pohjoismainen keittiö sydämessäsi",
+    "telephone": "+358 40 123 4567",
+    "email": "info@ravintolahelsinki.fi",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Aleksanterinkatu 15",
+      "addressLocality": "Helsinki",
+      "postalCode": "00100",
+      "addressCountry": "FI"
+    },
+    "openingHours": "Mo-Fr 11:00-22:00, Sa 12:00-23:00, Su 12:00-20:00",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "127"
+    }
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Site Config -->
+  <script src="site.config.js"></script>
+</head>
+<body>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="nav-logo" id="nav-logo">Ravintola Helsinki</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#palvelut" class="nav-link">Palvelut</a></li>
+        <li><a href="#meista" class="nav-link">Meista</a></li>
+        <li><a href="#arvostelut" class="nav-link">Arvostelut</a></li>
+        <li><a href="#yhteystiedot" class="nav-link nav-cta">Yhteystiedot</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO ==================== -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1 class="hero-title animate-fade-up" id="hero-title">Pohjoismaisen keittion parhaimmisto</h1>
+      <p class="hero-subtitle animate-fade-up delay-1" id="hero-subtitle">Tuoreet, paikalliset raaka-aineet yhdistettyna moderniin kokkaustaiteeseen. Varaa poytasi ja koe ainutlaatuinen makumatka.</p>
+      <a href="#yhteystiedot" class="btn btn-primary btn-lg animate-fade-up delay-2" id="hero-cta">Varaa poyta</a>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICES ==================== -->
+  <section class="section section-alt" id="palvelut">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2 class="section-title" id="services-title">Palvelumme</h2>
+        <p class="section-subtitle" id="services-subtitle">Kaikki mita tarvitset unohtumattomaan illanviettoon</p>
+      </div>
+      <div class="services-grid" id="services-grid">
+        <!-- Populated by JS from site.config.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT ==================== -->
+  <section class="section" id="meista">
+    <div class="container about-grid">
+      <div class="about-image animate-on-scroll">
+        <img id="about-image" src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80" alt="About us" loading="lazy">
+      </div>
+      <div class="about-content animate-on-scroll">
+        <h2 class="section-title text-left" id="about-title">Tarina meidan takana</h2>
+        <p class="about-text" id="about-text"></p>
+        <div class="about-stats" id="about-stats">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== REVIEWS ==================== -->
+  <section class="section section-alt" id="arvostelut">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2 class="section-title" id="reviews-title">Asiakkaiden kokemuksia</h2>
+        <p class="section-subtitle" id="reviews-subtitle">Lue mita vieraamme sanovat</p>
+      </div>
+      <div class="reviews-grid" id="reviews-grid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT ==================== -->
+  <section class="section" id="yhteystiedot">
+    <div class="container contact-grid">
+      <div class="contact-info animate-on-scroll">
+        <h2 class="section-title text-left" id="contact-title">Ota yhteytta</h2>
+        <p class="contact-subtitle" id="contact-subtitle">Varaa poyta tai kysy lisatietoja</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <strong>Osoite</strong>
+              <p id="contact-address"></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <strong>Puhelin</strong>
+              <p><a href="" id="contact-phone"></a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <strong>Sahkoposti</strong>
+              <p><a href="" id="contact-email"></a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <strong>Aukioloajat</strong>
+              <p id="contact-hours"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form-wrapper animate-on-scroll">
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <input type="text" name="name" id="form-name" placeholder="Nimesi" required>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <input type="email" name="email" id="form-email" placeholder="Sahkopostisi" required>
+            </div>
+            <div class="form-group">
+              <input type="tel" name="phone" id="form-phone" placeholder="Puhelinnumerosi">
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea name="message" id="form-message" rows="5" placeholder="Viestisi..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="form-submit">
+            <span>Laheta viesti</span>
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+          <div class="form-feedback" id="form-feedback"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== MAP ==================== -->
+  <section class="map-section">
+    <iframe
+      id="map-iframe"
+      src=""
+      width="100%"
+      height="400"
+      style="border:0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      title="Location map">
+    </iframe>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3 id="footer-name"></h3>
+          <p id="footer-desc"></p>
+          <div class="footer-social" id="footer-social"></div>
+        </div>
+        <div class="footer-links">
+          <h4>Navigointi</h4>
+          <ul>
+            <li><a href="#palvelut">Palvelut</a></li>
+            <li><a href="#meista">Meista</a></li>
+            <li><a href="#arvostelut">Arvostelut</a></li>
+            <li><a href="#yhteystiedot">Yhteystiedot</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Yhteystiedot</h4>
+          <p id="footer-address"></p>
+          <p id="footer-phone"></p>
+          <p id="footer-email"></p>
+          <p id="footer-hours"></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="footer-year"></span> <span id="footer-copyright-name"></span>. Kaikki oikeudet pidatetaan.</p>
+        <p class="footer-credit">Sivusto: <a href="https://elfennir.com" target="_blank" rel="noopener">ELFENNIR</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== WHATSAPP BUTTON ==================== -->
+  <a href="" class="whatsapp-btn" id="whatsapp-btn" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- ==================== COOKIE CONSENT ==================== -->
+  <div class="cookie-banner" id="cookie-banner">
+    <div class="cookie-content">
+      <p id="cookie-text"></p>
+      <button class="btn btn-primary btn-sm" id="cookie-accept">Hyvaksy</button>
+    </div>
+  </div>
+
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!-- Main Script -->
+  <script src="script.js"></script>
+</body>
+</html>
